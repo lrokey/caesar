@@ -1,2 +1,2 @@
 # caesar
-Simple caesar cipher to learn Ruby on Rails.
+Simple caesar cipher in an effort to learn Ruby on Rails. Uses Sinatra and Bootstrap.
