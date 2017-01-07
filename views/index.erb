@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Lora:700" rel="stylesheet">
+		<link rel="stylesheet" href="/bootstrap.min.css">
+		<link rel="stylesheet" href="/myStyle.css">
+	</head>
+	<body style = "background: #2E5266;">
+		<h1 style="font-family: 'Lora', serif; color: #9FB1BC;">Caesar's Cipher</h1>
+		<form class="form-horizontal">
+			<fieldset>
+			<!-- Text input-->
+			<div class="form-group">
+			  <div class="col-md-12">
+			  <input id="message" name='stringToEncode' type="text" placeholder="Your Message" class="form-control input-md">    
+			  </div>
+			</div>
+
+			<!-- Text input-->
+			<div class="form-group">
+			  <div class="col-md-12">
+			  <input id="shift" name="shift" type="number" name="shift" min="0" max="26" placeholder="Your Shift (0..26)" class="form-control input-md">
+			  </div>
+			</div>
+
+			<!-- Button -->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="submitBtn"></label>
+			  <div class="col-md-4">
+			    <button id="submitBtn" name="submitBtn" class="btn btn-primary">Encrypt!</button>
+			  </div>
+			</div>
+			</fieldset>
+		</form>
+
+		<div class="col-md-12">
+			<h3 style="font-family: 'Arima Madurai', cursive; color: #E2C044; text-align: center;"> <%= encodedMessage %></h3>
+		</div>
+	</body>
+</html>

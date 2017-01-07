@@ -1,0 +1,23 @@
+html{
+	display:table; 
+	margin: auto; 
+	height: 100%
+}
+
+body {
+	background: #2E5266;
+	display: table-cell; 
+	vertical-align: middle; 
+	height: 100%
+}
+
+h1{
+	font-family: 'Lora', serif; 
+	color= #9FB1BC 
+}
+
+h3{
+	font-size: 24px; f
+	ont-family: 'Arima Madurai', cursive; 
+	color=#E2C044"
+}
